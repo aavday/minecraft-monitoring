@@ -24,6 +24,7 @@
         "vite": "^2.9.11",
         "vue": "^2.7.4",
         "vue-loader": "^15.9.8",
+        "vue-router": "^3.5.3",
         "vue-template-compiler": "^2.6.12"
     }
 }

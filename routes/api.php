@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::apiResource('minecraft-servers', 'App\Http\Controllers\Api\MinecraftServersController')->only(['index', 'show']);
